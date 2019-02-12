@@ -1,0 +1,12 @@
+<%layout('./partials/layout')%>
+<body class="bg-white">
+<div>
+    <main>
+        <%- body%>
+    </main>
+    <script>
+        var navbar = document.getElementsByClassName('navbar');
+        navbar[0].classList.add("fixed-top");
+    </script>
+</div>
+
